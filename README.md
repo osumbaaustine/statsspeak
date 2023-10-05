@@ -8,17 +8,4 @@ index.html: The main HTML file for the website.
 styles.css: The primary stylesheet for styling the website.
 script.js: JavaScript code for adding interactivity to the website.
 Getting Started
-To run the Statsspeak website locally, follow these steps:
-
-Clone the repository to your local machine:
-
-bash
-Copy code
-git clone https://github.com/your-username/statsspeak-website.git
-Open the project directory:
-
-bash
-Copy code
-cd statsspeak-website
-Open index.html in your preferred web browser to view the website.
 
