@@ -7,5 +7,5 @@ The project follows a standard web development structure, with the following key
 index.html: The main HTML file for the website.
 styles.css: The primary stylesheet for styling the website.
 script.js: JavaScript code for adding interactivity to the website.
-Getting Started
+
 
