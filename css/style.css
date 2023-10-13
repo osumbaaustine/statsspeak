@@ -227,6 +227,7 @@ h6,
     padding: 45px 30px;
     background: #FFFFFF;
     transition: .5s;
+    height: 400px;
 }
 
 .service-item:hover {
@@ -538,3 +539,18 @@ h6,
     padding-right: 0;
     border-right: none;
 }
+
+.footer .clickable{
+    color: rgba(255,255,255,.5);
+    display: block;
+    margin-bottom: 1rem;
+    transition: .3s;
+
+
+}
+
+.footer .clickable:hover{
+    color: #FFFFFF;
+    letter-spacing: 1px;
+}
+
