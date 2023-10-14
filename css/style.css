@@ -80,14 +80,20 @@ h6,
 
 
 /*** Navbar ***/
+.logo{
+    max-height: 50px;
+}
 .sticky-top {
     top: -150px;
     transition: .5s;
+    box-shadow:  10px 10px 20px #04849b,
+    -10px -10px 20px #06c6e9;
 }
 
 .navbar {
     padding: 11px 0 !important;
     height: 75px;
+    
 }
 
 .navbar .navbar-nav .nav-link {
@@ -227,9 +233,12 @@ h6,
     padding: 45px 30px;
     background: #FFFFFF;
     transition: .5s;
-    height: 400px;
 }
-
+@media screen and (min-width: 1200px) {
+    .service-item {
+      height: 18.75rem;
+    }
+  }
 .service-item:hover {
     background: var(--primary);
 }
@@ -463,6 +472,10 @@ h6,
     border-color: var(--primary);
 }
 
+.team-item img{
+    object-fit: cover;
+}
+
 
 /*** Footer ***/
 .footer {
@@ -551,6 +564,5 @@ h6,
 
 .footer .clickable:hover{
     color: #FFFFFF;
-    letter-spacing: 1px;
 }
 
